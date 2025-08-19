@@ -1,0 +1,16 @@
+# виртуальные окружения
+venv/
+.env/
+.venv/
+
+# кеши
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# логи
+*.log
+
+# alembic
+migrations/versions/*.pyc
