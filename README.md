@@ -27,7 +27,11 @@
 1. Клонируйте репозиторий.  
 2. Создайте файл `.env` с параметрами подключения к MySQL, например:
 
-DATABASE_URL=mysql+pymysql://user:password@localhost/dbname
+DB_USER=bookuser
+DB_PASSWORD=Str0ngP@ssw0rd123!
+DB_NAME=Library
+DB_HOST=localhost
+DB_PORT=3306
 
 3. Установите зависмости:
 
